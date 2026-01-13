@@ -8,3 +8,4 @@ schedule
 plyer
 python-dateutil
 requests
+gunicorn
