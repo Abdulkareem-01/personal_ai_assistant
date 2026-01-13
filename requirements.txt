@@ -9,3 +9,4 @@ plyer
 python-dateutil
 requests
 gunicorn
+nltk
