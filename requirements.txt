@@ -1,0 +1,10 @@
+flask
+transformers
+torch
+scikit-learn
+numpy
+ddgs
+schedule
+plyer
+python-dateutil
+requests

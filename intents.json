@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning"],
+      "responses": ["Hello! How can I help you?"]
+    },
+    {
+      "tag": "schedule_task",
+      "patterns": [
+        "remind me at 6 pm",
+        "set a reminder",
+        "schedule a task",
+        "add a task"
+      ],
+      "responses": ["Okay, I will schedule that."]
+    },
+    {
+      "tag": "web_search",
+      "patterns": [
+        "search ai news",
+        "find latest technology",
+        "look up information"
+      ],
+      "responses": ["Searching the web for you..."]
+    },
+    {
+      "tag": "summarize",
+      "patterns": ["summarize this", "shorten this article", "give summary"],
+      "responses": ["Here is the summary:"]
+    },
+    {
+      "tag": "plan_day",
+      "patterns": ["plan my day", "organize my schedule", "make a daily plan"],
+      "responses": ["Here is your plan:"]
+    }
+  ]
+}
