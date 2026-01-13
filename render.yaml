@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: personal-ai-assistant
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt
+      python postbuild.py
+    startCommand: gunicorn app:app
